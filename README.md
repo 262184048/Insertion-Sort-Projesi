@@ -28,7 +28,9 @@ açıklama:
 n + (n-1) + (n-2) + (n-3) + ... + 1 (Ardışık sayıların toplamı formülü) ve n.(n+1)/2 => n^2+n /2 'dir.
 Big-O'da domine eden fonksiyon alınır,burada n^2 domine eden fonksiyon olduğu için,cevap O(n^2)'dir.
 
-3.Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+3.Time Complexity: Average case: ortadaki sayının aranması
+Worst case: sondaki sayının aranması
+Best case: baştaki sayı dizisinin aranması.
 Worst Case:
 [27,22,18,16,6,2] - O(n^2)
 
