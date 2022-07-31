@@ -1,17 +1,17 @@
 # Insertion-Sort-Projesi
-[22,27,16,2,18,6] -> Insertion Sort
+[10,27,16,3,18,6] -> Insertion Sort
 1.Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız.
-[22,27,16,2,18,6] -- (n)
+[10,27,16,3,18,6] -- (n)
 açıklama:
-Yukarıdaki sayı dizisi, bize verilen dizidir.Verilen bu dizinin en küçük elemanı 2'dir.Bizim amacımız en küçük elemanı en başa getirmektir.Bu nedenle,mevcut ilk eleman ile en küçük elemanı yer değiştirmemiz gerekmektedir.
+Amacımız en küçük elemanı en başa getirmektir.Bu nedenle,mevcut ilk eleman ile en küçük elemanı yer değiştirmemiz gerekmektedir.Yani 3 başa geçer ve 10 ile yer değiştirir
 
-2 elemanı,dizinin en başına yazılır ve 22 elemanı da,2 elemanının eski yerine yerleştirilir,yani elemanlar yer değiştirirler.Böylece 1.adım tamamlanmış olur.
+3 elemanı,dizinin en başına yazılır ve 10 elemanı da,3 elemanının eski yerine yerleştirilir,yani elemanlar yer değiştirirler.Böylece 1.adım tamamlanmış olur.
 
 1.ADIM:
-[2,27,16,22,18,6] -- (n-1)
+[3,27,16,10,18,6] -- (n-1)
 
 açıklama:
-Daha sonra ise,ilk eleman(2) sabit tutulur ve 2.elemanın en küçük olacağı,diziyi büyükten küçüğe sıralayabileceğimiz diğer eleman aranır. [27,16,22,18,6] dizisindeki en küçük eleman 6 olduğu için,6 elemanı 2.eleman olarak seçilir ve mevcut 2.eleman ile (27), 6 elemanı yer değiştirir. 2.adım da bu şekilde tamamlanır.
+Daha sonra ise,ilk eleman(3) sabit tutulur ve 3.elemanın en küçük olacağı,diziyi büyükten küçüğe sıralayabileceğimiz diğer eleman aranır. [27,16,22,18,6] dizisindeki en küçük eleman 6 olduğu için,6 elemanı 2.eleman olarak seçilir ve mevcut 2.eleman ile (27), 6 elemanı yer değiştirir. 2.adım da bu şekilde tamamlanır.
 
 2.ADIM:
 [2,6,16,22,18,27] -- (n-2)
